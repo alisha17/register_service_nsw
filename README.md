@@ -20,7 +20,7 @@ To run the application (this will start the flask server - default port is 5000)
 python run_server.py
 ```
 
-Hit the endpoint:
+Hit the endpoint (50 is the user_id to pass - change according to data in your db):
 
 ```
 curl localhost:5000/registrations/50
@@ -90,8 +90,8 @@ black .
 
 Some assumptions and notes:
 
-- In this application I am using serializable for the models to return the schema as per the specs for the GET api
-. However in practice, application schemas will differ for different endpoints. 
+- In this application I am using serializable for the models to return the schema as per the specs for the GET api.
+However in practice, application schemas will differ for different endpoints. 
 - I am using the same sqlite db file for development and testing. But in actual project, there should be different database for testing,
 which should ideally be dropped after the testing has completed. 
 For the same purpose, different configurations can be used for testing/development/production.

@@ -20,7 +20,7 @@ To run the application (this will start the flask server - default port is 5000)
 python run_server.py
 ```
 
-Hit the endpoint (50 is the user_id to pass - change according to data in your db):
+Hit the endpoint (50 is the user_id to pass - change according to your db):
 
 ```
 curl localhost:5000/registrations/50
@@ -82,7 +82,7 @@ To run the tests:
 python -m unittest tests
 ```
 
-To format the code, [Black is used](https://github.com/psf/black) which follows PEP8 standards:
+To format the code, [Black](https://github.com/psf/black) is used which follows PEP8 standards:
 
 ```
 black .

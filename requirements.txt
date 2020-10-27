@@ -1,4 +1,5 @@
 flask
-sqlalchemy
 pymysql
 pytest
+black
+flask-sqlalchemy

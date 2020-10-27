@@ -82,6 +82,12 @@ To run the tests:
 python -m unittest tests
 ```
 
+To format the code, [Black is used](https://github.com/psf/black) which follows PEP8 standards:
+
+```
+black .
+```
+
 Some assumptions and notes:
 
 - In this application I am using serializable for the models to return the schema as per the specs for the GET api
